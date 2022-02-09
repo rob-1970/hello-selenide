@@ -1,16 +1,11 @@
-package com.example.helloselenide;
+package com.example.helloselenide.robobar;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import static com.codeborne.selenide.Condition.disabled;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.open;
 import static org.hamcrest.CoreMatchers.is;
@@ -20,7 +15,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class AgeSuiteTest {
     CartPage cartPage = new CartPage();
     CheckOutPage checkOutPage = new CheckOutPage();
-    RoboOrderPage orderPage = new RoboOrderPage();
+    OrderPage orderPage = new OrderPage();
 
     @BeforeAll
     public static void setUpAll() {
@@ -42,6 +37,7 @@ public class AgeSuiteTest {
         // 2 | click | css=.ng-scope:nth-child(1) > td .input-group-append > .btn |
         //driver.findElement(By.cssSelector(".ng-scope:nth-child(1) > td .input-group-append > .btn")).click();
         //cartPage.addColaButton.click();
+        cartPage.getCheckOut().shouldBe(disabled);
         cartPage.addCola();
         // 3 | assertText | css=tr:nth-child(4) > .ng-binding | €1.25
         // 1x RobaCola = €1.25
@@ -179,7 +175,8 @@ public class AgeSuiteTest {
     }
 
     @Test
-    public void adultColaSelenide() {
+    public void adultWine() {
+        //cartPage.get
         cartPage.addCola();
         cartPage.checkOut();
         checkOutPage.getAgeInput();

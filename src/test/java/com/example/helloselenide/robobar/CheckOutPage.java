@@ -1,4 +1,4 @@
-package com.example.helloselenide;
+package com.example.helloselenide.robobar;
 
 import com.codeborne.selenide.SelenideElement;
 

@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 // http://localhost:3000/#!/review
-public class OrderPage {
+public class OrderPageInitial {
 
     @FindBy(css = ".alert-danger")
     public WebElement alertDiv;
@@ -14,7 +14,7 @@ public class OrderPage {
     @FindBy(css = "p")
     public WebElement confirmationMessage;
 
-    public OrderPage(WebDriver driver) {
+    public OrderPageInitial(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 }

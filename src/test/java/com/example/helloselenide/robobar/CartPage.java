@@ -1,4 +1,4 @@
-package com.example.helloselenide;
+package com.example.helloselenide.robobar;
 
 import com.codeborne.selenide.SelenideElement;
 
@@ -45,6 +45,10 @@ public class CartPage {
     // AÑADIR la CLASSE CartSuiteTest ***************************
     public SelenideElement total() {
         return txtTotal;
+    }
+
+    public SelenideElement getCheckOut() {
+        return btnCheckOut;
     }
 
 }

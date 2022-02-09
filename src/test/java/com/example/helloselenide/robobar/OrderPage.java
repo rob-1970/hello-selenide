@@ -1,12 +1,11 @@
-package com.example.helloselenide;
+package com.example.helloselenide.robobar;
 
 import com.codeborne.selenide.SelenideElement;
 
-import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
 // http://localhost:3000/#!/review
-public class RoboOrderPage {
+public class OrderPage {
 
     private SelenideElement alertAge = $(".alert-danger");
 
