@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.helloselenide.AgeSuiteTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-09T09:49:23" hostname="ubuntu" time="4.667">
+  <properties/>
+  <testcase name="adultColaSelenide()" classname="com.example.helloselenide.AgeSuiteTest" time="4.667"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /home/gftadmin/hello-selenide/build/downloads/1644400163370_45442_1
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 98.0.4758.80 (resolved driver for Chrome 98)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /home/gftadmin/.cache/selenium/chromedriver/linux64/98.0.4758.80/chromedriver
+Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 5617
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 09, 2022 10:49:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
+[Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1280x800
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=98.0.4758.80 Platform=LINUX
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.25.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on LINUX (9f863baa26a30d504c6018216d6b583b)
+]]></system-err>
+</testsuite>
