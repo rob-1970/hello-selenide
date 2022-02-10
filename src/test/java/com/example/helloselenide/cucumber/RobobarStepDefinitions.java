@@ -76,4 +76,39 @@ public class RobobarStepDefinitions {
         orderPage.getAlertAge().shouldBe(hidden);
         orderPage.getOrderSent().shouldBe(text("Coming right up! ~bzzzt~"));
     }
+
+/*    @When("user add {int} cola")
+    public void userAddCola(int arg0) {
+        cartPage.total().shouldBe(exactText(String.format("€%.2f",arg0*1.25)));
+    }*/
+
+    @When("user adds {int} cola")
+    public void userAddsNCola(int n) {
+        for(int i=0; i<n; i++){
+            cartPage.addCola();
+        }
+    }
+
+    @When("user adds {int} beer")
+    public void userAddsNBeer(int n) {
+        for(int i=0; i<n; i++){
+            cartPage.addBeer();
+        }
+    }
+
+    @When("user adds {int} wine")
+    public void userAddsNWine(int n) {
+        for(int i=0; i<n; i++){
+            cartPage.addWine();
+        }
+    }
+
+    @When("user adds {int} cola adds {int} beer adds {int} wine")
+    public void userAddsIntColaAddsBeerAddsWine(int arg0, int arg1, int arg2) {
+        userAddsNCola(arg0);
+        userAddsNBeer(arg1);
+        userAddsNWine(arg2);
+    }
 }
+
+

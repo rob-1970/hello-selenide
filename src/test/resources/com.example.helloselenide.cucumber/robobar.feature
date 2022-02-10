@@ -34,3 +34,27 @@ Feature: Robobar cart
     And user press order button
     Then alert is not active
     Then order is confirmed
+
+  Scenario Outline: user buys several colas
+    Given user opens robobar website
+    When user adds <n> cola
+    Then total should be €<total>
+    Examples:
+      | n | total |
+      | 1 | 1.25  |
+      | 2 | 2.50  |
+      | 3 | 3.75  |
+
+  Scenario Outline: user buys several drinks
+    Given user opens robobar website
+    When user adds <arg0> cola adds <arg1> beer adds <arg2> wine
+    Then total should be €<total>
+    Examples:
+      | arg0 | arg1 | arg2 | total |
+      | 1    | 0    | 0    | 1.25  |
+      | 0    | 1    | 0    | 2.00  |
+      | 0    | 0    | 1    | 3.00  |
+      | 1    | 1    | 0    | 3.25  |
+      | 0    | 1    | 1    | 5.00  |
+      | 1    | 0    | 1    | 4.25  |
+      | 1    | 1    | 1    | 6.25  |
