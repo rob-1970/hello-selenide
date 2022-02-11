@@ -3,10 +3,8 @@ package com.example.helloselenide.cucumber;
 import com.example.helloselenide.robobar.CartPage;
 import com.example.helloselenide.robobar.CheckOutPage;
 import com.example.helloselenide.robobar.OrderPage;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+import io.cucumber.java.PendingException;
+import io.cucumber.java.en.*;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.open;
@@ -108,6 +106,16 @@ public class RobobarStepDefinitions {
         userAddsNCola(arg0);
         userAddsNBeer(arg1);
         userAddsNWine(arg2);
+    }
+
+    @And("user is {int} years old")
+    public void userIsAgeYearsOld(int age) {
+        userEnterHerAgeIs(age);
+    }
+
+    @But("checkout result is {String}")
+    public void checkoutResultIsExpected(String expected) {
+        throw new PendingException();
     }
 }
 

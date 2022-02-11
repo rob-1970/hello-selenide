@@ -17,7 +17,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ImdbTest {
-    MainPage mainPage = new MainPage();
+    //MainPage mainPage = new MainPage();     // NO FA FALTA
 
     @BeforeAll
     public static void setUpAll() {

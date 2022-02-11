@@ -11,6 +11,12 @@ Feature: Robobar cart
     And user add a cola
     Then total should be €2.50
 
+  Scenario: user add two colas
+    Given user opens robobar website
+    * user add a cola
+    * user add a cola
+    * total should be €2.50
+
   Scenario: user add one beer
     Given user opens robobar website
     When user add a beer
@@ -58,3 +64,20 @@ Feature: Robobar cart
       | 0    | 1    | 1    | 5.00  |
       | 1    | 0    | 1    | 4.25  |
       | 1    | 1    | 1    | 6.25  |
+
+  Scenario Outline: user buys several drinks and finish
+    Given user opens robobar website
+    When user adds <arg0> cola adds <arg1> beer adds <arg2> wine
+    Then total should be €<total>
+    And user check out
+    And user is <age> years old
+    But checkout result is "<expected>"
+    Examples:
+      | arg0 | arg1 | arg2 | total | age | expected |
+      | 1    | 0    | 0    | 1.25  | 17  | pass     |
+      | 0    | 1    | 0    | 2.00  | 17  | fail     |
+      | 0    | 0    | 1    | 3.00  | 17  | fail     |
+      | 1    | 1    | 0    | 3.25  | 17  | fail     |
+      | 0    | 1    | 1    | 5.00  | 17  | fail     |
+      | 1    | 0    | 1    | 4.25  | 17  | fail     |
+      | 1    | 1    | 1    | 6.25  | 17  | fail     |
