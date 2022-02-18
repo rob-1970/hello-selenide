@@ -1,0 +1,163 @@
+{
+  "uid" : "1e6bc0837e4c4e59",
+  "name" : "imdbsearch()",
+  "fullName" : "com.example.helloselenide.ImdbTest.imdbsearch",
+  "historyId" : "662dce774c459d4cd34948fc267238de",
+  "time" : {
+    "start" : 1644238784076,
+    "stop" : 1644238807273,
+    "duration" : 23197
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1644238783783,
+      "stop" : 1644238783803,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1644238784086,
+      "stop" : 1644238797403,
+      "duration" : 13317
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://www.imdb.com/",
+      "time" : {
+        "start" : 1644238784092,
+        "stop" : 1644238797402,
+        "duration" : 13310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"#suggestion-search\") send keys([el juego del calamar, ])",
+      "time" : {
+        "start" : 1644238797429,
+        "stop" : 1644238800963,
+        "duration" : 3534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.linkText: Squid Game\") should be(visible)",
+      "time" : {
+        "start" : 1644238800976,
+        "stop" : 1644238801200,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.linkText: Squid Game\") click()",
+      "time" : {
+        "start" : 1644238801200,
+        "stop" : 1644238807213,
+        "duration" : 6013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.example.helloselenide.ImdbTest]/[method:imdbsearch()]"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "121091@ubuntu.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.helloselenide.ImdbTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.helloselenide.ImdbTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "imdbsearch"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.helloselenide.ImdbTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e6bc0837e4c4e59.json",
+  "parameterValues" : [ ]
+}

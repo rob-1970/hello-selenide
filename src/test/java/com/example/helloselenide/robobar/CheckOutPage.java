@@ -7,7 +7,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 // http://localhost:3000/#!/review
 public class CheckOutPage {
-
     private SelenideElement ageInput = $("#ageInput" );
 
     private SelenideElement btnOrderButton = $(".btn-success");
@@ -25,6 +24,4 @@ public class CheckOutPage {
     public void checkOut() {
         btnOrderButton.click();
     }
-
-
 }

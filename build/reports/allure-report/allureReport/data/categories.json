@@ -1,0 +1,72 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {#suggestion-search}\nExpected: exist\nScreenshot: file:/home/gftadmin/hello-selenide/build/reports/tests/1644324222622.0.png\nPage source: file:/home/gftadmin/hello-selenide/build/reports/tests/1644324222622.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#suggestion-search\"}",
+      "children" : [ {
+        "name" : "imdbsearch()",
+        "uid" : "6be3a875bf0bd014",
+        "parentUid" : "6de226236c0c4e77be70eec59c7cb53f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644324213960,
+          "stop" : 1644324223117,
+          "duration" : 9157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6de226236c0c4e77be70eec59c7cb53f"
+    }, {
+      "name" : "Element not found {[data-test='menu-main-icon-search']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/gftadmin/hello-selenide/build/reports/tests/1644580198397.0.png\nPage source: file:/home/gftadmin/hello-selenide/build/reports/tests/1644580198397.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-test='menu-main-icon-search']\"}",
+      "children" : [ {
+        "name" : "search()",
+        "uid" : "290a45b06e607f5b",
+        "parentUid" : "ceb5faf4db69f78d4add2b15f461f18d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644580191542,
+          "stop" : 1644580199019,
+          "duration" : 7477
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ceb5faf4db69f78d4add2b15f461f18d"
+    }, {
+      "name" : "Element not found {By.xpath: //div[contains(@class, 'menu-main__item') and text() = 'Developer Tools']}\nExpected: exist\nScreenshot: file:/home/gftadmin/hello-selenide/build/reports/tests/1644580204374.1.png\nPage source: file:/home/gftadmin/hello-selenide/build/reports/tests/1644580204374.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'menu-main__item') and text() = 'Developer Tools']\"}",
+      "children" : [ {
+        "name" : "toolsMenu()",
+        "uid" : "35e284eaa1ca1958",
+        "parentUid" : "9728ffbc2eb355d6d77a8910232cce43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644580199053,
+          "stop" : 1644580204900,
+          "duration" : 5847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9728ffbc2eb355d6d77a8910232cce43"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

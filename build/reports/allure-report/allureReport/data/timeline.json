@@ -1,0 +1,605 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ubuntu",
+    "children" : [ {
+      "name" : "105098@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "adultBeer()",
+        "uid" : "97ee98210c844bcd",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644580207273,
+          "stop" : 1644580209457,
+          "duration" : 2184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "underageCola()",
+        "uid" : "b6130f19a8df0040",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644580211404,
+          "stop" : 1644580212239,
+          "duration" : 835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "toolsMenu()",
+        "uid" : "35e284eaa1ca1958",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644580199053,
+          "stop" : 1644580204900,
+          "duration" : 5847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "underageBeer()",
+        "uid" : "af4748582fa5ddd0",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644580210016,
+          "stop" : 1644580211391,
+          "duration" : 1375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "adultWine()",
+        "uid" : "f9b61e8826cf2a3b",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644580209468,
+          "stop" : 1644580210009,
+          "duration" : 541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CucumberTest",
+        "uid" : "732003a0ca35de2b",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644580169645,
+          "stop" : 1644580169654,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "search()",
+        "uid" : "290a45b06e607f5b",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644580191542,
+          "stop" : 1644580199019,
+          "duration" : 7477
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "imdbsearch()",
+        "uid" : "d8d642884d03ea93",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644580213369,
+          "stop" : 1644580213407,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "colaTest()",
+        "uid" : "b928e996a19c77ae",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644580212248,
+          "stop" : 1644580212801,
+          "duration" : 553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "imdbsearch()",
+        "uid" : "3d367bcea81d939e",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644580169877,
+          "stop" : 1644580191518,
+          "duration" : 21641
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigationToAllTools()",
+        "uid" : "ae71c182969a6d97",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644580204906,
+          "stop" : 1644580207263,
+          "duration" : 2357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beerTest()",
+        "uid" : "762c1e87323192ac",
+        "parentUid" : "c67509df7f8b55509147ffed0c5adbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644580212805,
+          "stop" : 1644580213362,
+          "duration" : 557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c67509df7f8b55509147ffed0c5adbac"
+    }, {
+      "name" : "44956@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "beerTest()",
+        "uid" : "15c9e618fc4710eb",
+        "parentUid" : "9671a965ac80cb016b03944b2bec9d05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644399367445,
+          "stop" : 1644399368220,
+          "duration" : 775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "colaTest()",
+        "uid" : "dd81f5b4219e4be1",
+        "parentUid" : "9671a965ac80cb016b03944b2bec9d05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644399362548,
+          "stop" : 1644399367194,
+          "duration" : 4646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9671a965ac80cb016b03944b2bec9d05"
+    }, {
+      "name" : "43686@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "underageCola()",
+        "uid" : "18ac9740196a8538",
+        "parentUid" : "c39f5670f721eeb26af7660944cc4523",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644398390733,
+          "stop" : 1644398397468,
+          "duration" : 6735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c39f5670f721eeb26af7660944cc4523"
+    }, {
+      "name" : "70632@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "underageCola()",
+        "uid" : "2d01343cbeb1a042",
+        "parentUid" : "438d679d72ceb0b98587d91f0d75187f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644481587251,
+          "stop" : 1644481588260,
+          "duration" : 1009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "underageBeer()",
+        "uid" : "e442766f56fbadd3",
+        "parentUid" : "438d679d72ceb0b98587d91f0d75187f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644481585687,
+          "stop" : 1644481587245,
+          "duration" : 1558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "adultWine()",
+        "uid" : "ff776f3b43867050",
+        "parentUid" : "438d679d72ceb0b98587d91f0d75187f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644481584943,
+          "stop" : 1644481585678,
+          "duration" : 735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "adultBeer()",
+        "uid" : "f13506801d49f12",
+        "parentUid" : "438d679d72ceb0b98587d91f0d75187f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644481578032,
+          "stop" : 1644481584770,
+          "duration" : 6738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "438d679d72ceb0b98587d91f0d75187f"
+    }, {
+      "name" : "120644@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "search()",
+        "uid" : "b2f5d12c4e3e4ce5",
+        "parentUid" : "9567fafa93d42af6b7491c6cbb63112b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644238250437,
+          "stop" : 1644238264726,
+          "duration" : 14289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "toolsMenu()",
+        "uid" : "de9c19b415c555ad",
+        "parentUid" : "9567fafa93d42af6b7491c6cbb63112b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644238264882,
+          "stop" : 1644238270813,
+          "duration" : 5931
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "navigationToAllTools()",
+        "uid" : "7a0b2cc3866a5633",
+        "parentUid" : "9567fafa93d42af6b7491c6cbb63112b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644238270841,
+          "stop" : 1644238273541,
+          "duration" : 2700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9567fafa93d42af6b7491c6cbb63112b"
+    }, {
+      "name" : "121091@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "imdbsearch()",
+        "uid" : "1e6bc0837e4c4e59",
+        "parentUid" : "4334dba2fc6731efbd5c7115c5df4f19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644238784076,
+          "stop" : 1644238807273,
+          "duration" : 23197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4334dba2fc6731efbd5c7115c5df4f19"
+    }, {
+      "name" : "104637@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "CucumberTest",
+        "uid" : "64dd76096d40e32",
+        "parentUid" : "475c5ec5dd9430f9538892fec42ef606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644579229858,
+          "stop" : 1644579229902,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "475c5ec5dd9430f9538892fec42ef606"
+    }, {
+      "name" : "44344@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "adultBeer()",
+        "uid" : "2bbae101bd42bdc7",
+        "parentUid" : "af9bc965546e5f3a5b341e86e8728f8c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644399084055,
+          "stop" : 1644399089634,
+          "duration" : 5579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af9bc965546e5f3a5b341e86e8728f8c"
+    }, {
+      "name" : "44579@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "underageBeer()",
+        "uid" : "46b64b838ed1e621",
+        "parentUid" : "746252595bc5ebcbc83da02e4477a8b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644399119732,
+          "stop" : 1644399121167,
+          "duration" : 1435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "underageCola()",
+        "uid" : "89b5162bbff7b815",
+        "parentUid" : "746252595bc5ebcbc83da02e4477a8b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644399121193,
+          "stop" : 1644399122269,
+          "duration" : 1076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "adultBeer()",
+        "uid" : "920bf1104d1c0e51",
+        "parentUid" : "746252595bc5ebcbc83da02e4477a8b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644399114567,
+          "stop" : 1644399119630,
+          "duration" : 5063
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "746252595bc5ebcbc83da02e4477a8b4"
+    }, {
+      "name" : "104484@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "CucumberTest",
+        "uid" : "4e20b4b71c77e960",
+        "parentUid" : "2c39d9b5c49d2163ba4172a916548d6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644579158944,
+          "stop" : 1644579158978,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c39d9b5c49d2163ba4172a916548d6f"
+    }, {
+      "name" : "44065@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "underageBeer()",
+        "uid" : "86b24bfacacc9f1e",
+        "parentUid" : "826286e081c94e6e64f92e715f69bf47",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644398899920,
+          "stop" : 1644398905434,
+          "duration" : 5514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "826286e081c94e6e64f92e715f69bf47"
+    }, {
+      "name" : "45442@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "adultColaSelenide()",
+        "uid" : "71bde887aade5fe8",
+        "parentUid" : "fafad8ab6540f5cd45f474a672c5c2c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644400163342,
+          "stop" : 1644400167719,
+          "duration" : 4377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fafad8ab6540f5cd45f474a672c5c2c1"
+    }, {
+      "name" : "22268@ubuntu.Test worker(1)",
+      "children" : [ {
+        "name" : "imdbsearch()",
+        "uid" : "6be3a875bf0bd014",
+        "parentUid" : "3be76f6ca969d5ae420a8b5408447ae6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644324213960,
+          "stop" : 1644324223117,
+          "duration" : 9157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3be76f6ca969d5ae420a8b5408447ae6"
+    } ],
+    "uid" : "fd8342d1c2e3fbb0ae3eb3c73964add6"
+  } ]
+}

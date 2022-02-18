@@ -50,5 +50,4 @@ public class CartPage {
     public SelenideElement getCheckOut() {
         return btnCheckOut;
     }
-
 }

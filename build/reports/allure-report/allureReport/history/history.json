@@ -1,0 +1,366 @@
+{
+  "3d89fed4a767019e350ec86c16b640d1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71bde887aade5fe8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644400163342,
+        "stop" : 1644400167719,
+        "duration" : 4377
+      }
+    } ]
+  },
+  "747bdd4a29093dd0f70e6222e787f935" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "920bf1104d1c0e51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644399114567,
+        "stop" : 1644399119630,
+        "duration" : 5063
+      }
+    } ]
+  },
+  "7ddadba52d434e4fdb850bf120435204" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97ee98210c844bcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580207273,
+        "stop" : 1644580209457,
+        "duration" : 2184
+      }
+    } ]
+  },
+  "e8734cc20746d73edb8dc818e406ef9b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9b61e8826cf2a3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580209468,
+        "stop" : 1644580210009,
+        "duration" : 541
+      }
+    } ]
+  },
+  "a24413adc1c26d32308de2ddb11de6ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae71c182969a6d97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580204906,
+        "stop" : 1644580207263,
+        "duration" : 2357
+      }
+    } ]
+  },
+  "b13226c413b6af33ebf0a443442792a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd81f5b4219e4be1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644399362548,
+        "stop" : 1644399367194,
+        "duration" : 4646
+      }
+    } ]
+  },
+  "23a5d44e13c44f8660ae9ec054d3d5e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b928e996a19c77ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580212248,
+        "stop" : 1644580212801,
+        "duration" : 553
+      }
+    } ]
+  },
+  "494b710a10ca3b1a9e13e9eb7a2305bf" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6be3a875bf0bd014",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#suggestion-search}\nExpected: exist\nScreenshot: file:/home/gftadmin/hello-selenide/build/reports/tests/1644324222622.0.png\nPage source: file:/home/gftadmin/hello-selenide/build/reports/tests/1644324222622.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#suggestion-search\"}",
+      "time" : {
+        "start" : 1644324213960,
+        "stop" : 1644324223117,
+        "duration" : 9157
+      }
+    } ]
+  },
+  "244585a0a1ec9448264f759567f2e4ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15c9e618fc4710eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644399367445,
+        "stop" : 1644399368220,
+        "duration" : 775
+      }
+    } ]
+  },
+  "320f1d710c90878de64e45084300b65c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46b64b838ed1e621",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644399119732,
+        "stop" : 1644399121167,
+        "duration" : 1435
+      }
+    } ]
+  },
+  "662dce774c459d4cd34948fc267238de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d367bcea81d939e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580169877,
+        "stop" : 1644580191518,
+        "duration" : 21641
+      }
+    } ]
+  },
+  "8d8f065d423cb32a39904e8655a41708" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89b5162bbff7b815",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644399121193,
+        "stop" : 1644399122269,
+        "duration" : 1076
+      }
+    } ]
+  },
+  "943d8a52d1e78fcd0dbd317224adc122" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35e284eaa1ca1958",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[contains(@class, 'menu-main__item') and text() = 'Developer Tools']}\nExpected: exist\nScreenshot: file:/home/gftadmin/hello-selenide/build/reports/tests/1644580204374.1.png\nPage source: file:/home/gftadmin/hello-selenide/build/reports/tests/1644580204374.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'menu-main__item') and text() = 'Developer Tools']\"}",
+      "time" : {
+        "start" : 1644580199053,
+        "stop" : 1644580204900,
+        "duration" : 5847
+      }
+    } ]
+  },
+  "827b6f16ff8628df0d76cd477a269aa8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "762c1e87323192ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580212805,
+        "stop" : 1644580213362,
+        "duration" : 557
+      }
+    } ]
+  },
+  "17f9b56c02f832f1fcf75f57fd422bdb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "290a45b06e607f5b",
+      "status" : "failed",
+      "statusDetails" : "Element not found {[data-test='menu-main-icon-search']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/gftadmin/hello-selenide/build/reports/tests/1644580198397.0.png\nPage source: file:/home/gftadmin/hello-selenide/build/reports/tests/1644580198397.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-test='menu-main-icon-search']\"}",
+      "time" : {
+        "start" : 1644580191542,
+        "stop" : 1644580199019,
+        "duration" : 7477
+      }
+    } ]
+  },
+  "ff8ec35d04795b6205b1a80cf5200e18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af4748582fa5ddd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580210016,
+        "stop" : 1644580211391,
+        "duration" : 1375
+      }
+    } ]
+  },
+  "ac4de9e5e4f525184a0785dcd6aed0db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6130f19a8df0040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580211404,
+        "stop" : 1644580212239,
+        "duration" : 835
+      }
+    } ]
+  },
+  "be147576fb9d12f0062ece810659bb25" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "732003a0ca35de2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580169645,
+        "stop" : 1644580169654,
+        "duration" : 9
+      }
+    } ]
+  },
+  "1ea59e7c88d2b0aafc60853d0c8987f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8d642884d03ea93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580213369,
+        "stop" : 1644580213407,
+        "duration" : 38
+      }
+    } ]
+  }
+}

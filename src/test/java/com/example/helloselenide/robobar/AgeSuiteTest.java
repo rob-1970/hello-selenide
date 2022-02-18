@@ -120,7 +120,7 @@ public class AgeSuiteTest {
         }*/
         //assertThat(orderPage.confirmationMessage.getText(), is("Coming right up! ~bzzzt~"));
         assertThat(orderPage.getAlertAge().isDisplayed(), is(true));
-     }
+    }
 
     @Test
     public void adultBeer() {

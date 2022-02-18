@@ -1,0 +1,364 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "com.example.helloselenide.RoboBarTest",
+    "children" : [ {
+      "name" : "imdbsearch()",
+      "uid" : "6be3a875bf0bd014",
+      "parentUid" : "5a066c5f0a121c34ff784ff00d2e640b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644324213960,
+        "stop" : 1644324223117,
+        "duration" : 9157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5a066c5f0a121c34ff784ff00d2e640b"
+  }, {
+    "name" : "com.example.helloselenide.AgeSuiteTest",
+    "children" : [ {
+      "name" : "adultBeer()",
+      "uid" : "920bf1104d1c0e51",
+      "parentUid" : "b2fd928567558010eabf73e765590d97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644399114567,
+        "stop" : 1644399119630,
+        "duration" : 5063
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "underageBeer()",
+      "uid" : "46b64b838ed1e621",
+      "parentUid" : "b2fd928567558010eabf73e765590d97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644399119732,
+        "stop" : 1644399121167,
+        "duration" : 1435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "underageCola()",
+      "uid" : "89b5162bbff7b815",
+      "parentUid" : "b2fd928567558010eabf73e765590d97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644399121193,
+        "stop" : 1644399122269,
+        "duration" : 1076
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "adultColaSelenide()",
+      "uid" : "71bde887aade5fe8",
+      "parentUid" : "b2fd928567558010eabf73e765590d97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644400163342,
+        "stop" : 1644400167719,
+        "duration" : 4377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b2fd928567558010eabf73e765590d97"
+  }, {
+    "name" : "com.example.helloselenide.CartSuiteTest",
+    "children" : [ {
+      "name" : "colaTest()",
+      "uid" : "dd81f5b4219e4be1",
+      "parentUid" : "51f722adda4a0975c82e567dfdab470c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644399362548,
+        "stop" : 1644399367194,
+        "duration" : 4646
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "beerTest()",
+      "uid" : "15c9e618fc4710eb",
+      "parentUid" : "51f722adda4a0975c82e567dfdab470c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644399367445,
+        "stop" : 1644399368220,
+        "duration" : 775
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "51f722adda4a0975c82e567dfdab470c"
+  }, {
+    "name" : "com.example.helloselenide.cucumber.CucumberTest",
+    "children" : [ {
+      "name" : "CucumberTest",
+      "uid" : "732003a0ca35de2b",
+      "parentUid" : "b827d069d8c3e2cfc8056b9655d5df01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580169645,
+        "stop" : 1644580169654,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b827d069d8c3e2cfc8056b9655d5df01"
+  }, {
+    "name" : "com.example.helloselenide.ImdbTest",
+    "children" : [ {
+      "name" : "imdbsearch()",
+      "uid" : "3d367bcea81d939e",
+      "parentUid" : "16c984af85b73e7b9c58563ebd0e4f20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580169877,
+        "stop" : 1644580191518,
+        "duration" : 21641
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "16c984af85b73e7b9c58563ebd0e4f20"
+  }, {
+    "name" : "com.example.helloselenide.MainPageTest",
+    "children" : [ {
+      "name" : "search()",
+      "uid" : "290a45b06e607f5b",
+      "parentUid" : "7d4a1b192284c11ac231e789bb6f4ae6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644580191542,
+        "stop" : 1644580199019,
+        "duration" : 7477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "toolsMenu()",
+      "uid" : "35e284eaa1ca1958",
+      "parentUid" : "7d4a1b192284c11ac231e789bb6f4ae6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644580199053,
+        "stop" : 1644580204900,
+        "duration" : 5847
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "navigationToAllTools()",
+      "uid" : "ae71c182969a6d97",
+      "parentUid" : "7d4a1b192284c11ac231e789bb6f4ae6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580204906,
+        "stop" : 1644580207263,
+        "duration" : 2357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7d4a1b192284c11ac231e789bb6f4ae6"
+  }, {
+    "name" : "com.example.helloselenide.robobar.AgeSuiteTest",
+    "children" : [ {
+      "name" : "adultBeer()",
+      "uid" : "97ee98210c844bcd",
+      "parentUid" : "f33453503416337688d32505caa1e201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580207273,
+        "stop" : 1644580209457,
+        "duration" : 2184
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "adultWine()",
+      "uid" : "f9b61e8826cf2a3b",
+      "parentUid" : "f33453503416337688d32505caa1e201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580209468,
+        "stop" : 1644580210009,
+        "duration" : 541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "underageBeer()",
+      "uid" : "af4748582fa5ddd0",
+      "parentUid" : "f33453503416337688d32505caa1e201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580210016,
+        "stop" : 1644580211391,
+        "duration" : 1375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "underageCola()",
+      "uid" : "b6130f19a8df0040",
+      "parentUid" : "f33453503416337688d32505caa1e201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580211404,
+        "stop" : 1644580212239,
+        "duration" : 835
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f33453503416337688d32505caa1e201"
+  }, {
+    "name" : "com.example.helloselenide.robobar.CartSuiteTest",
+    "children" : [ {
+      "name" : "colaTest()",
+      "uid" : "b928e996a19c77ae",
+      "parentUid" : "6ee08ff8e2c08587ce561e04ab91644c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580212248,
+        "stop" : 1644580212801,
+        "duration" : 553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "beerTest()",
+      "uid" : "762c1e87323192ac",
+      "parentUid" : "6ee08ff8e2c08587ce561e04ab91644c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580212805,
+        "stop" : 1644580213362,
+        "duration" : 557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6ee08ff8e2c08587ce561e04ab91644c"
+  }, {
+    "name" : "com.example.helloselenide.robobar.RoboBarTest",
+    "children" : [ {
+      "name" : "imdbsearch()",
+      "uid" : "d8d642884d03ea93",
+      "parentUid" : "7a498fcdae3aecede1bdfa2f55fde3b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644580213369,
+        "stop" : 1644580213407,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7a498fcdae3aecede1bdfa2f55fde3b5"
+  } ]
+}

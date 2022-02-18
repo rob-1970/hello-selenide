@@ -31,10 +31,8 @@ public class RoboBarTest {
     @Test
     public void imdbsearch() {
 /*        mainPage.searchButton.click();
-
         $("[data-test='search-input']").sendKeys("Selenium");
         $("button[data-test='full-search-button']").click();
-
         $("input[data-test='search-input']").shouldHave(attribute("value", "Selenium"));*/
 
         // Ja tenim configurada la pagina sobre la que volem realitzar les PROVES.
@@ -50,16 +48,12 @@ public class RoboBarTest {
     /*@Test
     public void toolsMenu() {
         mainPage.toolsMenu.hover();
-
         $("div[data-test='menu-main-popup-content']").shouldBe(visible);
     }
-
     @Test
     public void navigationToAllTools() {
         mainPage.seeAllToolsButton.click();
-
         $("#products-page").shouldBe(visible);
-
         assertEquals("All Developer Tools and Products by JetBrains", Selenide.title());
     }*/
 }

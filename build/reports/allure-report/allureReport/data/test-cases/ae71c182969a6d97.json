@@ -1,0 +1,158 @@
+{
+  "uid" : "ae71c182969a6d97",
+  "name" : "navigationToAllTools()",
+  "fullName" : "com.example.helloselenide.MainPageTest.navigationToAllTools",
+  "historyId" : "a24413adc1c26d32308de2ddb11de6ac",
+  "time" : {
+    "start" : 1644580204906,
+    "stop" : 1644580207263,
+    "duration" : 2357
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1644580191538,
+      "stop" : 1644580191539,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1644580204909,
+      "stop" : 1644580205724,
+      "duration" : 815
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://www.jetbrains.com/",
+      "time" : {
+        "start" : 1644580204909,
+        "stop" : 1644580205724,
+        "duration" : 815
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"a.wt-button_mode_primary\") click()",
+      "time" : {
+        "start" : 1644580205725,
+        "stop" : 1644580207133,
+        "duration" : 1408
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#products-page\") should be(visible)",
+      "time" : {
+        "start" : 1644580207133,
+        "stop" : 1644580207242,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.example.helloselenide.MainPageTest]/[method:navigationToAllTools()]"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "105098@ubuntu.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.helloselenide.MainPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.helloselenide.MainPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigationToAllTools"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.helloselenide.MainPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7a0b2cc3866a5633",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644238270841,
+        "stop" : 1644238273541,
+        "duration" : 2700
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae71c182969a6d97.json",
+  "parameterValues" : [ ]
+}

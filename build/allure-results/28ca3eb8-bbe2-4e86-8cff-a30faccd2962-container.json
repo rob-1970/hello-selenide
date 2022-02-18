@@ -1,0 +1,1 @@
+{"uuid":"28ca3eb8-bbe2-4e86-8cff-a30faccd2962","name":"RoboBarTest","children":["53f1b52c-32a7-4fbd-8969-3db5d93d7c72"],"befores":[{"name":"setUpAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1644841702261,"stop":1644841702261}],"afters":[],"start":1644841702259,"stop":1644841703466}

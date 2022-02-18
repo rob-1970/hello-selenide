@@ -1,0 +1,191 @@
+[ {
+  "uid" : "f9b61e8826cf2a3b",
+  "name" : "adultWine()",
+  "time" : {
+    "start" : 1644580209468,
+    "stop" : 1644580210009,
+    "duration" : 541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "290a45b06e607f5b",
+  "name" : "search()",
+  "time" : {
+    "start" : 1644580191542,
+    "stop" : 1644580199019,
+    "duration" : 7477
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8d642884d03ea93",
+  "name" : "imdbsearch()",
+  "time" : {
+    "start" : 1644580213369,
+    "stop" : 1644580213407,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd81f5b4219e4be1",
+  "name" : "colaTest()",
+  "time" : {
+    "start" : 1644399362548,
+    "stop" : 1644399367194,
+    "duration" : 4646
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae71c182969a6d97",
+  "name" : "navigationToAllTools()",
+  "time" : {
+    "start" : 1644580204906,
+    "stop" : 1644580207263,
+    "duration" : 2357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6130f19a8df0040",
+  "name" : "underageCola()",
+  "time" : {
+    "start" : 1644580211404,
+    "stop" : 1644580212239,
+    "duration" : 835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46b64b838ed1e621",
+  "name" : "underageBeer()",
+  "time" : {
+    "start" : 1644399119732,
+    "stop" : 1644399121167,
+    "duration" : 1435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af4748582fa5ddd0",
+  "name" : "underageBeer()",
+  "time" : {
+    "start" : 1644580210016,
+    "stop" : 1644580211391,
+    "duration" : 1375
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "732003a0ca35de2b",
+  "name" : "CucumberTest",
+  "time" : {
+    "start" : 1644580169645,
+    "stop" : 1644580169654,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89b5162bbff7b815",
+  "name" : "underageCola()",
+  "time" : {
+    "start" : 1644399121193,
+    "stop" : 1644399122269,
+    "duration" : 1076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "762c1e87323192ac",
+  "name" : "beerTest()",
+  "time" : {
+    "start" : 1644580212805,
+    "stop" : 1644580213362,
+    "duration" : 557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97ee98210c844bcd",
+  "name" : "adultBeer()",
+  "time" : {
+    "start" : 1644580207273,
+    "stop" : 1644580209457,
+    "duration" : 2184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "920bf1104d1c0e51",
+  "name" : "adultBeer()",
+  "time" : {
+    "start" : 1644399114567,
+    "stop" : 1644399119630,
+    "duration" : 5063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15c9e618fc4710eb",
+  "name" : "beerTest()",
+  "time" : {
+    "start" : 1644399367445,
+    "stop" : 1644399368220,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35e284eaa1ca1958",
+  "name" : "toolsMenu()",
+  "time" : {
+    "start" : 1644580199053,
+    "stop" : 1644580204900,
+    "duration" : 5847
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b928e996a19c77ae",
+  "name" : "colaTest()",
+  "time" : {
+    "start" : 1644580212248,
+    "stop" : 1644580212801,
+    "duration" : 553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d367bcea81d939e",
+  "name" : "imdbsearch()",
+  "time" : {
+    "start" : 1644580169877,
+    "stop" : 1644580191518,
+    "duration" : 21641
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71bde887aade5fe8",
+  "name" : "adultColaSelenide()",
+  "time" : {
+    "start" : 1644400163342,
+    "stop" : 1644400167719,
+    "duration" : 4377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6be3a875bf0bd014",
+  "name" : "imdbsearch()",
+  "time" : {
+    "start" : 1644324213960,
+    "stop" : 1644324223117,
+    "duration" : 9157
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

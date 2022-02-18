@@ -1,0 +1,77 @@
+{
+  "uid" : "732003a0ca35de2b",
+  "name" : "CucumberTest",
+  "fullName" : "com.example.helloselenide.cucumber.CucumberTest",
+  "historyId" : "be147576fb9d12f0062ece810659bb25",
+  "time" : {
+    "start" : 1644580169645,
+    "stop" : 1644580169654,
+    "duration" : 9
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-vintage]/[runner:com.example.helloselenide.cucumber.CucumberTest]"
+  }, {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "105098@ubuntu.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.example.helloselenide.cucumber.CucumberTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.helloselenide.cucumber.CucumberTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.example.helloselenide.cucumber.CucumberTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "64dd76096d40e32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644579229858,
+        "stop" : 1644579229902,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "4e20b4b71c77e960",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644579158944,
+        "stop" : 1644579158978,
+        "duration" : 34
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "732003a0ca35de2b.json",
+  "parameterValues" : [ ]
+}

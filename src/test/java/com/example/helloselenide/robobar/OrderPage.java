@@ -6,7 +6,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 // http://localhost:3000/#!/review
 public class OrderPage {
-
     private SelenideElement alertAge = $(".alert-danger");
 
     private SelenideElement orderSent = $("p");
@@ -18,5 +17,4 @@ public class OrderPage {
     public SelenideElement getOrderSent() {
         return orderSent;
     }
-
 }

@@ -3,7 +3,7 @@ plugins {
     id 'io.qameta.allure' version '2.9.3'
 }
 
-group 'com.example'
+group 'com.sinensia'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -13,6 +13,7 @@ repositories {
 ext {
     allureVersion = '2.16.1'
     junitVersion = '5.8.1'
+    cucumberVersion = '7.2.3'
 }
 
 sourceCompatibility = '11'
@@ -31,18 +32,50 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 
-    testImplementation("io.cucumber:cucumber-java:7.2.3")
-    testImplementation("io.cucumber:cucumber-junit:7.2.3")
+    //testImplementation("io.cucumber:cucumber-java:7.2.3")
+    //testImplementation("io.cucumber:cucumber-junit:7.2.3")
+    testImplementation("io.cucumber:cucumber-java:${cucumberVersion}")
+    testImplementation("io.cucumber:cucumber-junit:${cucumberVersion}")
     testImplementation("org.junit.vintage:junit-vintage-engine:${junitVersion}")
     //testImplementation("io.qameta.allure:allure-cucumber4-jvm:${allureVersion}")
     //testImplementation("io.qameta.allure:allure-cucumber4-jvm:2.17.2")
     testImplementation("io.qameta.allure:allure-cucumber4-jvm:2.15.0")
 }
 
-test {
+// Posem tots el parametres COMUNS JUNTS
+tasks.withType(Test){
+    systemProperties["selenide.baseUrl"]="https://robobar.sinensia.pw"
+    systemProperties["selenide.remote"]="http://localhost:4444/wd/hub";
+    systemProperties["selenide.browser"]="chrome";
+    //systemProperties["selenide.browserVersion"]="97.0"
+    systemProperties["selenide.browserSize"]="1024x768";
     ignoreFailures = true    // Per a que continui encara que hi hagi fallos
     useJUnitPlatform()
 }
+
+test {      // TEST per DEFECTE
+    // Version en la nube
+    //systemProperty["selenide.baseUrl"]="https://robobar.sinensia.pw";
+    // Version LOCAL MEU => 10.250.1.12
+    //     External: http://10.250.1.2:3000
+    // ============ systemProperties["selenide.baseUrl"]="https://robobar.sinensia.pw"
+    //systemProperties["selenide.baseUrl"]="http://10.250.1.2:3000"
+    // ============ systemProperties["selenide.remote"]="http://localhost:4444/wd/hub";
+    //systemProperties["selenide.browser"]="chrome";
+    // ============ systemProperties["selenide.browser"]="edge";
+    // ============ systemProperties["selenide.browserVersion"]="97.0"
+    // ============ ignoreFailures = true    // Per a que continui encara que hi hagi fallos
+    // ============ systemProperties["selenide.browserSize"]="600x800";
+    // ============ useJUnitPlatform()
+    ignoreFailures = true    // Per a que continui encara que hi hagi fallos
+    useJUnitPlatform()
+}
+
+// ALTRES TESTS
+//test {
+
+//}
+
 allure {
     autoconfigure = true
     version = "${allureVersion}"
@@ -55,7 +88,7 @@ allure {
 // Configuracio del CUCUMBER
 configurations {
     cucumberRuntime{
-        extendsFrom testImplementations
+        extendsFrom testImplementation
     }
 }
 
@@ -68,7 +101,7 @@ task cucumberCli() {
             args = [
                     '--plugin', 'pretty',
                     '--plugin', 'html:target/cucumber-report.html',
-                    '--plugin', 'io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm',
+//                    '--plugin', 'io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm',
                     '--glue','com.sinensia',
                     'src/test/resources']
         }
